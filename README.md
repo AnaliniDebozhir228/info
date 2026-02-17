@@ -2,6 +2,17 @@
 web couse : html + css + js
 
 | | | | |
-|-|-|-|-|
 |id|name|nick|login|password|
-|integer AI|null|Not null|not null|
+|-|-|-|-|
+|integer AI|Varchat null|Not null Varchat|FK|
+
+# REPOS
+|ID|name|desk|Files|
+|-|-|-|-|
+|integer AI|Not null|null|FK|
+
+# FILES
+| | | |
+|name|exip|data|
+|-|-|-|
+|Varchat Not null|null|Text null|
